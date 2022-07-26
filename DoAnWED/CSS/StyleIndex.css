@@ -1,0 +1,266 @@
+﻿body {
+}
+/**//**//**//**/
+
+.nutchucnang 
+{
+    
+    height:40px;
+    width:140px;
+    background-color:#ffe348;
+    color:black;
+    font-family:Bahnschrift;
+    font-size:18px;
+    box-shadow:5px 5px 5px #c2c0c0;
+}
+
+.imgct {
+    width:350px;
+    height:380px;
+}
+.imgct:hover {
+    width:360px;
+    height:390px;
+}
+
+.img {
+    padding-top:30px;
+    width:345px;
+    height:345px;
+}
+.img:hover {
+    padding-top:10px;
+}
+
+.nutchucnang:hover
+{
+    width:144px;
+    height:44px;
+    color:white;
+    font-size:20px;
+    
+}
+h2.subject
+{
+    font-size:30px;
+    color:black;
+    background-color:#ffd800;
+    border-top-right-radius:100px;
+    padding:10px;
+    width:25%;
+    text-align:center;
+    margin-bottom:0; 
+    margin-top:0;
+}
+
+.HinhGR {
+    width:50px;
+	height:50px;
+	padding:3px 3px 3px 3px;
+	margin:0px;
+}
+
+.line
+{
+    width:98%;
+    height:5px;
+    background-color:black;
+}
+
+
+/**//**//**/
+
+.linkbtn
+{
+    color:black;
+    text-decoration:none;
+}
+
+.linkbtn:hover
+{
+    color:white;
+}
+
+.head{
+    width:100%;
+    height:55px;
+    background-color:#ffd800;
+}
+
+.img_logo{
+    float:left;
+    height:100%;
+    width:15%;
+    padding-top:6px;
+    padding-left:3%;
+}
+
+.timKiem{
+    float:left;
+    height:100%;
+    width:25%;
+    background-color:black;
+    padding-left:1%;
+}
+
+.txtTK{
+    margin-top:10px;
+}
+
+.menu_Ngang {
+    float: right;
+    height: 100%;
+    width: 54%;
+    padding-top:15px;
+}
+
+.id_menuNgang {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-family: Bahnschrift;
+    padding-left: 3%;
+    font-weight:bolder;
+}
+
+.id_menuNgang:hover {
+    color: white;
+}
+
+
+
+.panner{
+    width:100%;
+    height:220px;
+}
+
+.slideshow{
+    float: left;
+    height:100%;
+    width:57%;
+    padding-left:1%;
+}
+/*.mySlides
+{
+    height:100%;
+    width:100%;
+    display:none;
+}
+.dot {
+   cursor: pointer;
+   height: 15px;
+   width: 15px;
+   margin: 0 2px;
+   background-color: #bbb;
+   border-radius: 50%;
+   display: inline-block;
+   transition: background-color 0.6s ease;
+ }
+.active, .dot:hover {
+   background-color: #717171;
+ }*/
+
+/* Thêm hiệu ứng khi chuyển đổi các slide 
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+   from {opacity: .4}
+   to {opacity: 1}
+ }
+@keyframes fade {
+   from {opacity: .4}
+   to {opacity: 1}
+ }*/
+
+.QC1{
+    float:left;
+    height:100%;
+    width:19%;
+}
+
+.QC2{
+    float:left;
+    height:100%;
+    width:19%;
+}
+
+.kt {
+    float:left;
+    height:100%;
+    width:1%;
+}
+
+.center{
+    width:100%;
+    height:6000px;
+}
+
+.danhMuc{
+    float:left;
+    height:99%;
+    width:19%;
+    border-right: 1px solid #939393;
+}
+
+.dm{
+    width:100%;
+    height:50px;
+    background-color:#ffd800;
+}
+
+.dm p{
+    font-size: 20px;
+    color: black;
+    font-family: Bahnschrift;
+    padding-left:10%;
+    padding-top:12px;
+    margin:0;
+}
+
+.menu_con{
+    height:100%;
+    width:24%;
+    float:left;
+}
+
+.menu_con ul{
+    padding:0;
+    margin:0;
+    list-style-type:none;
+}
+
+.id_SP {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-family: Bahnschrift;
+    display: block;
+    padding: 10px 20px;
+    width: 212px;
+    border: 1px solid #939393;
+    background-color:white;
+}
+
+.id_SP:hover {
+    border-left: 5px solid #ffd800;
+    color: #ffd800;
+    font-weight: bold;
+}
+
+
+.ND{
+    float:left;
+    height:auto;
+    width:80%;
+}
+
+.bottom{
+    width:100%;
+    height:70px;
+    background-color:#ffd800;
+}

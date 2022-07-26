@@ -1,0 +1,93 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="indexLogined.master.cs" Inherits="index" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="CSS\StyleIndex.css" rel="stylesheet" />
+   <link rel="stylesheet" type="text/css" href="CSS\style.css"/>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+    <div class="head">
+        <div class="img_logo">
+            <a href="TrangChuLogined.aspx"><img src="img/logo.png" style="height: 80%; width: 80%" /></a>
+        </div>
+        <div class="timKiem">
+            <asp:TextBox ID="txtSearch" runat="server" BorderColor="Black" ForeColor="Black" Height="27px" Width="78%" CssClass="txtTK"></asp:TextBox>
+            <asp:Button ID="btnSearch" runat="server" Text="Tìm" BackColor="#FFD800" BorderColor="#FFD800" Font-Bold="True" Font-Size="Medium" ForeColor="White" Height="28px" Width="55px" />
+        </div>
+        <div class="menu_Ngang">
+            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/TrangChulogined.aspx" CssClass="id_menuNgang">TRANG CHỦ</asp:HyperLink>
+             <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/QuanLy.aspx" CssClass="id_menuNgang">QUẢN LÝ</asp:HyperLink>
+            <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/TaiKhoan.aspx" CssClass="id_menuNgang">TÀI KHOẢN</asp:HyperLink>
+            <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/CartLogined.aspx" CssClass="id_menuNgang">GIỎ HÀNG</asp:HyperLink>
+            <asp:Label ID="lbAcc" runat="server" Text="" CssClass="id_menuNgang" ></asp:Label>
+            <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="TrangChu.aspx" CssClass="id_menuNgang">Đăng Xuất</asp:HyperLink>
+        </div>
+    </div>
+
+    <div class="panner">
+        <div class="slideshow">
+            <div class="khoi-slide">
+                <div class="cac-slide">
+                    <div class="slide active"><img src="img/slide1.PNG" style="height:205px"/></div>
+                    <div class="slide"><img src="img/slide2.PNG" style="height:205px"/></div>
+                    <div class="slide"><img src="img/slide3.PNG" style="height:205px"/></div>
+                </div>
+                <div class="nut-slide">
+                    <ul>
+                        <li class="active_nut"></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+           <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+           <script type="text/javascript" src="js/popper.min.js"></script>
+           <script type="text/javascript" src="js/script.js"></script>
+        </div>
+        <div class="kt"></div>
+        <div class="QC1">
+            <img src="img/Quang.jpg" style="height:205px"/>
+        </div>
+        <div class="kt"></div>
+        <div class="QC2">
+            <img src="img/QuangCao2.jpg" style="height:205px"/>
+        </div>
+    </div>
+
+    <div class="center">
+        <div class="danhMuc">
+            <div class="dm">
+                <p>CÁC LOẠI ĐIỆN THOẠI</p>
+            </div>
+            <div class="menu_con">
+                <ul class="sub_menu">
+                    <li><a href="SanPhamLogined.aspx?loaisp=Iphone" class="id_SP">IPHONE</a></li>
+                    <li><a href="SanPhamLogined.aspx?loaisp=Vivo" class="id_SP">VIVO</a></li>
+                    <li><a href="SanPhamLogined.aspx?loaisp=OPPO" class="id_SP">OPPO</a></li>
+                    <li><a href="SanPhamLogined.aspx?loaisp=Xiaomi" class="id_SP">XIAOMI</a></li>
+                    <li><a href="SanPhamLogined.aspx?loaisp=SamSung" class="id_SP">SAMSUNG</a></li>
+                    <li><a href="SanPhamLogined.aspx?loaisp=Nokia" class="id_SP">NOKIA</a></li>
+                </ul>
+                
+            </div>
+        </div>
+        <div class="ND">
+            <div style="padding-left:20px">
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </div>
+    
+    <div class="bottom"></div>
+    </form>
+</body>
+</html>
